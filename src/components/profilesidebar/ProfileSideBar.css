@@ -1,0 +1,147 @@
+.profile_sideBar {
+  min-width: 350px;
+  background-color: white;
+  max-width: 350px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 17px;
+}
+.checkin,
+.checkout {
+  width: 130px;
+  height: 45px;
+  border-radius: 10px;
+  border: 0px;
+  background: #5ec782;
+  color: #fff;
+}
+.checkout {
+  background: #ff5c5d;
+}
+.first_ {
+  background: #f2f3f5;
+  padding: 12px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.first_ p {
+  margin-bottom: 0px;
+}
+.second_ img {
+  border-radius: 50%;
+}
+
+.crm p,
+.agent p,
+.transfer p {
+  background: #e7f3ff;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 0px;
+  color: #1485ff;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.crm p:hover,
+.agent p:hover,
+.transfer p:hover {
+  color: #fff;
+  background: #1485ff;
+}
+.infos_tabs {
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  background: #f8faf9;
+  overflow: hidden;
+}
+.crete,
+.amotn,
+.staged {
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 0px;
+}
+.date,
+.qualifiacations,
+.ruppess {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.creation,
+.amount,
+.stage {
+  margin: 18px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 4px;
+}
+.profile_sideBar .nav-tabs .nav-link.active {
+  border-bottom: 2px solid blue;
+  width: 140px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.profile_sideBar .nav-tabs .nav-link {
+  width: 140px;
+  border: none;
+}
+.profile_sideBar div#nav-tab {
+  background: white;
+  height: 55px;
+}
+.connected_tme_wrapper {
+  padding: 15px;
+}
+.second_ {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.user_name {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.user_name h5 {
+  font-size: 22px;
+  font-weight: 400;
+}
+.user_name p {
+  font-size: 18px;
+  font-weight: 400;
+}
+.user_name i {
+  font-size: 15px;
+  margin-right: 8px;
+}
+.options {
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 1400px) {
+  .showprofile.hidden {
+    display: none;
+  }
+  .showprofile {
+    position: fixed;
+    background: #00000085;
+    inset: 0;
+  }
+  .profile_sideBar {
+    float: right;
+  }
+}
