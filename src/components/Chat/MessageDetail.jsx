@@ -46,10 +46,10 @@ const MessageDetail = () => {
             </div>
           </div>
         </div>
-        <div className="row">
+        <div className="row chat--boxs--detailss">
           <div className="col-12 p-0">
             <div className="both--user--chatting">
-              {/* <div className="user--recived--message">
+              <div className="user--recived--message">
                 <div className="user--r-img">
                   MY
                   <span className="recived--active"></span>
@@ -60,7 +60,7 @@ const MessageDetail = () => {
                   </p>
                   <span className="user--r--time"> 1 sec ago..</span>
                 </div>
-              </div> */}
+              </div>
 
               <div className="user--recived--message">
                 <div className="user--r-img">
@@ -114,10 +114,6 @@ const MessageDetail = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-12 p-0">
             <div className="sent---boxss">
               <div className="sent--message--from">
                 <div className="by--default">

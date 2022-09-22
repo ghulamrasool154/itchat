@@ -32,7 +32,7 @@ const ProfileSideBar = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col border-start ">
+            <div className="col border-start profile---sidar--section">
               <div className="connected_tme_wrapper">
                 <div className="first_">
                   <p>Connected Time:6 Hrs 12 mins</p>

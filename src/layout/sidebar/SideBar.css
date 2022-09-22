@@ -1,6 +1,17 @@
+
+.side--bar--section {
+  height: 85vh;
+  overflow-x: hidden;
+}
+
+.side--bar--section::-webkit-scrollbar-thumb{
+  background-color: #3684d8;
+}
+
 .chat_side_bar {
   width: 350px;
   background-color: white;
+  height: 100%;
 }
 .input_area input {
   border: none;
@@ -29,10 +40,10 @@
 }
 .nav-pills .nav-link.active {
   background: none !important;
-  color: blue !important;
+  color: #3684d8 !important;
   position: relative;
   top: 14px;
-  border-bottom: 3px solid #306baf !important;
+  border-bottom: 3px solid #467eb9 !important;
   border-radius: 0px !important;
   font-size: 18px;
   font-weight: 500;
@@ -53,7 +64,18 @@ div#pills-tabContent {
 }
 ul#pills-tab {
   height: 65px;
+  justify-content: space-between;
+  padding: 0;
 }
 .list {
   margin: 8px;
+}
+.list2 .user100 ,.list2  .urgent,.list2 .customer ,.list2 .para{
+display: none;
+}
+ .main_wrapper_sidebar{
+  width: 330px;
+}
+.list2 .main_wrapper_sidebar{
+  align-items: center;
 }
