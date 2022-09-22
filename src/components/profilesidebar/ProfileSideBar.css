@@ -144,6 +144,8 @@
   overflow: scroll;
   overflow-x: hidden;
 }
+
+
 .profile---sidar--section::-webkit-scrollbar-thumb{
   background-color: #1485ff;
 }
