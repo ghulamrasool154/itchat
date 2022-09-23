@@ -113,6 +113,28 @@ const MessageDetail = () => {
                   <span className="recived--active"></span>
                 </div>
               </div>
+              <div className="user--recived--message">
+                <div className="user--r-img">
+                  MY
+                  <span className="recived--active"></span>
+                </div>
+                <div className="user--r-detilssss">
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <span className="user--r--time"> 1 sec ago..</span>
+                </div>
+              </div>
+              <div className="user--sent--message">
+                <div className="user--s-detilssss">
+                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                  <span className="user--r--time"> 1 sec ago..</span>
+                </div>
+                <div className="user--s-img">
+                  CL
+                  <span className="recived--active"></span>
+                </div>
+              </div>
             </div>
             <div className="sent---boxss">
               <div className="sent--message--from">

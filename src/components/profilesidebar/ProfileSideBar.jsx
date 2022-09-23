@@ -34,28 +34,30 @@ const ProfileSideBar = () => {
           <div className="row">
             <div className="col border-start profile---sidar--section">
               <div className="connected_tme_wrapper">
-                <div className="first_">
-                  <p>Connected Time:6 Hrs 12 mins</p>
-                </div>
-                <div className="second_">
-                  <img src={profile} alt="profile image" />
-                </div>
-                <div className="user_name">
-                  <h5>Christeen Lee</h5>
-                  <p>
-                    <i className="fa-solid fa-phone-flip"></i>+1332 596 9965
-                  </p>
-                </div>
-                <div className="options">
-                  <div className="crm">
-                    {" "}
-                    <p>Open In CRM</p>
+                <div className="connect--time--boox">
+                  <div className="first_">
+                    <p>Connected Time:6 Hrs 12 mins</p>
                   </div>
-                  <div className="agent">
-                    <p>Add Agent</p>
+                  <div className="second_">
+                    <img src={profile} alt="profile image" />
                   </div>
-                  <div className="transfer">
-                    <p>Transfer To Anonther Agent</p>
+                  <div className="user_name">
+                    <h5>Christeen Lee</h5>
+                    <p>
+                      <i className="fa-solid fa-phone-flip"></i>+1332 596 9965
+                    </p>
+                  </div>
+                  <div className="options">
+                    <div className="crm">
+                      {" "}
+                      <p>Open In CRM</p>
+                    </div>
+                    <div className="agent">
+                      <p>Add Agent</p>
+                    </div>
+                    <div className="transfer">
+                      <p>Transfer To Anonther Agent</p>
+                    </div>
                   </div>
                 </div>
                 <div className="infos_tabs">

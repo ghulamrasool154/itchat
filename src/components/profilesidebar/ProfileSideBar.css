@@ -60,11 +60,23 @@
   color: #fff;
   background: #1485ff;
 }
+.connect--time--boox {
+  height: 50vh;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.connect--time--boox::-webkit-scrollbar-thumb{
+ background-color:#1485ff; 
+}
 .infos_tabs {
   border: 1px solid #dee2e6;
   border-radius: 10px;
   background: #f8faf9;
   overflow: hidden;
+  position: absolute;
+  bottom: 21px;
+  right: 0;
+  left: 0;
 }
 .crete,
 .amotn,
@@ -109,6 +121,8 @@
 }
 .connected_tme_wrapper {
   padding: 15px;
+  position: relative;
+  height: 88vh;
 }
 .second_ {
   text-align: center;
@@ -139,11 +153,11 @@
 
 } 
 
-.profile---sidar--section {
+/* .profile---sidar--section {
   height: 85vh;
   overflow: scroll;
   overflow-x: hidden;
-}
+} */
 
 
 .profile---sidar--section::-webkit-scrollbar-thumb{

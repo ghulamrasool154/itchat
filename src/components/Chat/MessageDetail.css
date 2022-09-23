@@ -86,6 +86,11 @@ p {
 
 .both--user--chatting {
   padding: 30px;
+  overflow: scroll;
+  height: 85vh;
+}
+.both--user--chatting::-webkit-scrollbar-thumb{
+  background-color: #1485ff;
 }
 .user--sent--message,
 .user--recived--message {
@@ -182,30 +187,32 @@ p {
 }
 /*  */
 .sent---boxss {
-  padding: 30px;
-  margin-top: 100px;
+  /* padding: 30px; */
+  /* margin-top: 100px; */
 }
 
 .chat--boxs--detailss {
   height: 85vh;
-  overflow: scroll;
-  overflow-x: hidden;
+  /* overflow: scroll; */
+  /* overflow-x: hidden; */
+  position: relative;
 }
-.chat--boxs--detailss::-webkit-scrollbar-thumb{
+.chat--boxs--detailss::-webkit-scrollbar-thumb {
   background-color: #2179d9;
 }
 
 .sent---boxss .sent--message--from {
   background-color: white;
+  box-shadow:rgb(100 100 111 / 51%) 0px 7px 29px 0px
 }
 
 .by--default span.by--d--message {
   display: inline-block;
   background: #f2f3f5;
   margin: 0 5px;
-  padding: 6px 15px;
+  padding: 6px 14px;
   border-radius: 26px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   color: #6e777d;
 }
@@ -240,12 +247,12 @@ p {
 .sent--message--from .messag--form--box {
   display: flex;
   justify-content: space-between;
-  padding: 15px 30px;
+  padding: 15px 20px;
   align-items: center;
 }
 
 .messag--form--box .message--form {
-  width: 70%;
+  width: 60%;
 }
 .message--form input[type="text"] {
   width: 100%;
@@ -263,6 +270,17 @@ input::placeholder {
 .menu--bar--mobile {
   display: none;
 }
+.sent---boxss {
+  margin-top: 100px;
+    margin-top: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 30px;
+    padding-bottom: 0;
+}
+
 
 @media screen and (max-width: 1600px) {
   .user--sent--message,
@@ -273,6 +291,13 @@ input::placeholder {
     max-width: 80%;
   }
 }
+
+@media screen  and (max-width : 1500px){
+  .by--default span.by--d--message{
+    font-size: 13px;
+  }
+  
+}
 @media screen and (max-width: 1460px) {
   .agent--images img {
     width: 30px;
@@ -281,15 +306,26 @@ input::placeholder {
     width: 50px;
     height: 50px;
   }
+  .by--default span.by--d--message {
+    font-size: 12px;
+}
+.sent--message--from .by--default {
+  padding: 20px 10px;
+}
 }
 
 @media screen and (max-width: 1215px) {
-  .by--default span.by--d--message{
+  .by--default span.by--d--message {
     margin: 5px;
   }
-  .by--default span.by--d--message:nth-child(4){
+  .by--default span.by--d--message:nth-child(4) {
     margin: 0;
     margin-top: 5px;
+  }
+  .by--default span.by--d--message {
+    padding: 6px 10px;
+
+    font-size: 14px;
   }
 }
 
