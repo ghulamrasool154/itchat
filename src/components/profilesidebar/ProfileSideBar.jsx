@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProfileSideBar.css";
-import profile from "../../assets/images/profile2.png";
+import profileimag from "../../assets/images/profile2.png";
 import { useContext } from "react";
 import { contentCreate } from "../../content/RedcuerFun";
 
@@ -13,11 +13,16 @@ const ProfileSideBar = () => {
     console.log(data.state.mobileMenuToggle);
   };
   return (
-    <div
-      className={value ? "showprofile" : " showprofile hidden"}
-      onClick={hanldeFunction}
-    >
-      <section className="profile_sideBar">
+    <>
+      <div
+        className={value ? "showprofile" : " showprofile hidden"}
+        onClick={hanldeFunction}
+      ></div>
+      <section
+        className={
+          value ? "profile_sideBar" : "profile_sideBar hidden--sidebar"
+        }
+      >
         <div className="container-fluid">
           <div className="row">
             <div className="col p-0">
@@ -39,7 +44,7 @@ const ProfileSideBar = () => {
                     <p>Connected Time:6 Hrs 12 mins</p>
                   </div>
                   <div className="second_">
-                    <img src={profile} alt="profile image" />
+                    <img src={profileimag} alt="" />
                   </div>
                   <div className="user_name">
                     <h5>Christeen Lee</h5>
@@ -139,7 +144,7 @@ const ProfileSideBar = () => {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 };
 

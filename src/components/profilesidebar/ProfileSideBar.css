@@ -136,7 +136,7 @@
 }
 .profile_sideBar {
   float: right;
-
+z-index: 20;
 } 
 
 .profile---sidar--section {
@@ -148,9 +148,12 @@
   background-color: #1485ff;
 }
 @media screen and (max-width: 1400px) {
+  
+  section.profile_sideBar.hidden--sidebar,
   .showprofile.hidden {
     display: none;
   }
+  
   .showprofile {
     position: fixed;
     background: #00000085;
