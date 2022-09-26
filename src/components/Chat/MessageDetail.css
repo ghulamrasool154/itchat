@@ -247,7 +247,7 @@ p {
 .sent--message--from .messag--form--box {
   display: flex;
   justify-content: space-between;
-  padding: 15px 20px;
+  padding: 15px 30px;
   align-items: center;
 }
 
