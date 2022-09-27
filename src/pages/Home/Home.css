@@ -2,4 +2,6 @@
   width: calc(100% - 80px);
   float: right;
   display: flex;
+  height: 100vh;
+  overflow: hidden;
 }

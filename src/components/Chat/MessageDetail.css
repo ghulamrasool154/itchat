@@ -312,6 +312,9 @@ input::placeholder {
 .sent--message--from .by--default {
   padding: 20px 10px;
 }
+.sent---boxss{
+  padding-bottom: 30px;
+}
 }
 
 @media screen and (max-width: 1215px) {

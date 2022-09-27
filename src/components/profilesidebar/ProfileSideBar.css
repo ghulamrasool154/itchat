@@ -108,7 +108,7 @@
   height: 55px;
 }
 .connected_tme_wrapper {
-  padding: 15px;
+  padding: 10px;
 }
 .second_ {
   text-align: center;
@@ -132,28 +132,147 @@
   margin-right: 8px;
 }
 .options {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 .profile_sideBar {
   float: right;
-z-index: 20;
-} 
+  z-index: 20;
+}
 
 .profile---sidar--section {
   height: 88vh;
   overflow: scroll;
   overflow-x: hidden;
 }
-.profile---sidar--section::-webkit-scrollbar-thumb{
+.profile---sidar--section::-webkit-scrollbar-thumb {
   background-color: #1485ff;
 }
+
+@media screen and (max-width: 1600px) {
+  .first_ {
+    margin: 0;
+  }
+  .second_ {
+    margin: 5px 0;
+  }
+  .second_ img {
+    width: 50px;
+  }
+}
 @media screen and (max-width: 1400px) {
-  
+  section.profile_sideBar {
+    position: fixed;
+    float: right;
+    right: 0;
+}
+  .options{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    justify-content: space-between;
+  }
+  .options div {
+    width: 49%;
+    
+  }
+  .options .transfer {
+    width: 100% !important;
+  }
+  .first_ p{
+    font-size:14px
+    }
+  .creation,
+  .amount,
+  .stage {
+    margin: 9px;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  .connected_tme_wrapper {
+    padding: 15px;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 17px;
+  }
+  .first_ {
+    background: #f2f3f5;
+    padding: 8px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+  }
+  .second_ {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .second_ img {
+    border-radius: 50%;
+    width: 26%;
+  }
+  .user_name h5 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .user_name p {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .crm p,
+  .agent p,
+  .transfer p {
+    background: #e7f3ff;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 0px;
+    color: #1485ff;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .profile_sideBar div#nav-tab {
+    background: white;
+    height: 45px;
+  }
+  .creation,
+  .amount,
+  .stage {
+    margin: 9px;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  .crete,
+  .amotn,
+  .staged {
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 0px;
+  }
+
+  .date,
+  .qualifiacations,
+  .ruppess {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0px;
+  }
   section.profile_sideBar.hidden--sidebar,
   .showprofile.hidden {
     display: none;
   }
-  
+
   .showprofile {
     position: fixed;
     background: #00000085;

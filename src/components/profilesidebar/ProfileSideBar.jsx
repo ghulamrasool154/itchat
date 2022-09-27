@@ -18,6 +18,7 @@ const ProfileSideBar = () => {
         className={value ? "showprofile" : " showprofile hidden"}
         onClick={hanldeFunction}
       ></div>
+
       <section
         className={
           value ? "profile_sideBar" : "profile_sideBar hidden--sidebar"
@@ -144,6 +145,7 @@ const ProfileSideBar = () => {
           </div>
         </div>
       </section>
+      {/* </div> */}
     </>
   );
 };
